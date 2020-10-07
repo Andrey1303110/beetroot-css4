@@ -1,0 +1,46 @@
+body {
+    background-color: #FDDE7E;
+    align-items: center;
+    display: flex;
+    margin-top: 8%;
+}
+
+.flex {
+    justify-content: space-between;
+    display: flex;
+    margin: 50px 150px;
+    align-items: center;
+    width: 100%;
+}
+
+.flex-container {
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid #a18c4d8f;
+    background-color: rgb(252, 252, 252);
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 31%;
+    font-size: 1.5em;
+}
+
+.flex-container:hover {
+    transform: scale(1.15);
+    transition: all .45s ease-in-out;
+    transition-timing-function: steps(25);
+    background-color: rgba(137, 43, 226, 0.458);
+    color: white;
+}
+
+.price {
+    color: #02995B;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+p {
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+}
