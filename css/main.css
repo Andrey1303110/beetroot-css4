@@ -24,11 +24,11 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
     width: 31%;
     font-size: 1.5em;
+    transition: all .35s ease-in-out;
 }
 
 .flex-container:hover {
     transform: scale(1.15);
-    transition: all .35s ease-in-out;
     transition-timing-function: steps(25);
     background-color: rgba(137, 43, 226, 0.418);
     color: white;
